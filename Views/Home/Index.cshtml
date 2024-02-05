@@ -1,0 +1,16 @@
+﻿@model IEnumerable<EffectiveUsers.Models.Users>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@foreach(var user in Model)
+
+{
+    <p>รหัสพนักงาน: @user.Id</p>
+    <p>ชื่อ: @user.Username</p>
+    <p>รหัสผ่าน: @user.Password</p>
+
+} 
+
+ 
