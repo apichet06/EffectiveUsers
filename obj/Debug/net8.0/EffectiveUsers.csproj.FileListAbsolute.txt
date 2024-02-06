@@ -264,3 +264,4 @@ D:\ASP\EffectiveUsers\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.C
 D:\ASP\EffectiveUsers\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 D:\ASP\EffectiveUsers\obj\Debug\net8.0\EffectiveUsers.csproj.AssemblyReference.cache
 D:\ASP\EffectiveUsers\obj\Debug\net8.0\EffectiveUsers.csproj.CopyComplete
+D:\ASP\EffectiveUsers\obj\Debug\net8.0\EffectiveUsers.sourcelink.json

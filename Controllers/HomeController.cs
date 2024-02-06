@@ -13,6 +13,9 @@ namespace EffectiveUsers.Controllers
             _logger = logger;
         }
 
+     
+
+
         public IActionResult Index()
         {
             var s1 = new Users();

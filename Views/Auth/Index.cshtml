@@ -6,25 +6,27 @@
 <div class="container">
     <div class="row justify-content-center py-5">
         <div class="col-md-4">
-            <div class="mb-3 text-center">
-                <img src="~/logo/user-login.svg" class="img-fluid" alt="...">
-            </div>
+            
             <div class="card shadow">
                 <div class="card-body">
-                    <form id="Add" method="post">
+                    <div class="mb-3 text-center">
+                        <img src="~/logo/user-login.svg" class="img-fluid" alt="...">
+                    </div>
+                    <hr/>
+                    <div id="alert"></div>
+                    <form id="loginForm" method="post" >
                         <div class="mb-2">
-                            <label for="exampleInputEmail1" class="form-label">ชื่อล็อกอิน</label>
-                            <input type="text" class="form-control" id="userlogin" name="userlogin" aria-describedby="userHelp" placeholder="Username">
+                            <label for="userlogin" class="form-label">ชื่อล็อกอิน</label>
+                            <input type="text" class="form-control" id="userlogin" name="userLogin" aria-describedby="userHelp" placeholder="Username">
                         </div>
                         <div class="mb-2">
-                            <label for="exampleInputPassword1" class="form-label">รหัสผ่าน</label>
+                            <label for="password" class="form-label">รหัสผ่าน</label>
                             <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                         </div>
-
                         <div class="modal-footer">
-                            <button type="submit" class="btn btn-primary">ล็อกอิน</button>
+                            <button type="submit" id="loginButton" class="btn btn-primary">ล็อกอิน</button>
                         </div>
-                    </form>
+                    </form> 
                 </div>
             </div>
         </div>
@@ -32,3 +34,42 @@
 </div>
 
 
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("#loginForm").on("submit", function (e) {
+            e.preventDefault();
+
+            var userLogin = $('#userlogin').val();
+            var password = $('#password').val(); 
+            $.ajax({
+                type: 'POST',
+                url: '@Url.Action("Login", "Auth")',
+                data: {
+                    userLogin: userLogin,
+                    password: password
+                },
+                success: function (response) {
+
+                    // เมื่อคำขอสำเร็จ
+                    if (response.success) {
+                        // ทำสิ่งที่คุณต้องการเมื่อการล็อกอินสำเร็จ
+                        window.location.href = '@Url.Action("Index", "Users")';
+                    } else {
+                        // ทำสิ่งที่คุณต้องการเมื่อการล็อกอินไม่สำเร็จ
+                        console.log(response.message); 
+                        $("#alert").html(`
+                            <div class="alert alert-danger" role="alert">
+                                <strong class="alert">${response.message}</strong>
+                            </div>`
+                        )
+                    }
+                },
+                error: function (xhr, status, error) {
+                    // เมื่อเกิดข้อผิดพลาดในการส่งคำขอ
+                    console.error(error);
+                }
+            });
+        });
+    });
+</script>
+ 

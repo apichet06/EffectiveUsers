@@ -23,12 +23,15 @@ namespace EffectiveUsers.Models
         public string? Username { get; set; }
         [MaxLength(1)]
         [Required]
-        public string? Status { get; set;}
+        public string? Status { get; set; }
         [MaxLength(10)]
         [Required]
-        public string? DV_ID {  get; set; }
+        public string? DV_ID { get; set; }
         [MaxLength(10)]
         [Required]
-        public string? P_ID { get; set;}
+        public string? P_ID { get; set; }
+        [Required]
+        public DateTime EffectiveDate { get; set; }
+        public DateTime EffectiveUpdateDate { get; set; }
     }
 }
