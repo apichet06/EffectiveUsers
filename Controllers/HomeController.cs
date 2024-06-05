@@ -13,19 +13,17 @@ namespace EffectiveUsers.Controllers
             _logger = logger;
         }
 
-     
-
 
         public IActionResult Index()
         {
             var s1 = new Users();
             s1.Id = 1;
-            s1.Username = "test";
+            s1.LastName = "test";
             s1.Password = "123456";
 
            var s2 = new Users();
             s2.Id = 2;
-            s2.Username = "test";
+            s2.LastName = "test";
             s2.Password = "123456";
 
            var allUser = new List<Users>();

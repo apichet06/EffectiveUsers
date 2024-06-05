@@ -1,6 +1,6 @@
-﻿@{
+﻿@* @{
     var usernameCookie = Context.Request.Cookies["username"];
-}
+} *@
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/EffectiveUsers.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/dataTables.bootstrap5.min.css" asp-append-version="true" />
 </head>
 <body>
     <header class="">
-        @if (!string.IsNullOrEmpty(usernameCookie))
-        {
-            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light navbar-underline  bg-white shadow mb-3">
+      @*   @if (!string.IsNullOrEmpty(usernameCookie))
+        { *@
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light navbar-underline bg-white shadow mb-5 fixed-top">
                 <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Users" asp-action="Chart">
                     <img src="~/logo/user-login.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"> 
@@ -32,42 +33,53 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Index">รายชื่อสมาชิก</a>
                         </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Chart">จัดการข้อมูลสมาชิก</a>
-                            </li>
+                        <li class="nav-item">
+                           <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Create">จัดการข้อมูลสมาชิก</a>
+                        </li>
                     </ul> 
                     <ul class="navbar-nav   ml-auto flex-grow-0">
                     
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="About">เกี่ยวกับเรา</a>
                         </li>
-                            <li class="nav-item">
+                        <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Index">ออกจากระบบ</a>
-                            </li>
+                        </li>
                     </ul>
                 </div>
             </div>
             </nav>
-        } 
+        @* }  *@
     </header>
 
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="~/js/jquery.dataTables.min.js" asp-append-version="true"></script>
+    <script src="~/js/dataTables.bootstrap5.min.js" asp-append-version="true"></script>
+    <script src="~/js/chart.js" asp-append-version="true"></script>
+    <script src="~/js/chartjs-plugin-datalabels@2.js" asp-append-version="true"></script>
+   
+
     <div class="container">
         <main role="main" class="pb-3">
-            @RenderBody()
+            <div class="container pd-top">
+                @RenderBody()
+            </div> 
         </main>
     </div>
-    @if (!string.IsNullOrEmpty(usernameCookie))
-        {
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - EffectiveUsers 
-        </div>
-    </footer>
-        }
+   @*  @if (!string.IsNullOrEmpty(usernameCookie))
+        { *@
+        <footer class="border-top fixed-bottom bg-white">
+            <div class="container text-center p-2">
+                &copy; 2024 - EffectiveUsers 
+            </div>
+        </footer>
+        @* } *@
+
+
     @await RenderSectionAsync("Scripts", required: false)
+ 
 </body>
 </html>

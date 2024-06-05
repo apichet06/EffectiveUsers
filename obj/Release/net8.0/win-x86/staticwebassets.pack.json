@@ -181,12 +181,36 @@
       "PackagePath": "staticwebassets\\EffectiveUsers.bundle.scp.css"
     },
     {
+      "Id": "D:\\ASP\\EffectiveUsers\\wwwroot\\css\\dataTables.bootstrap5.min.css",
+      "PackagePath": "staticwebassets\\css\\dataTables.bootstrap5.min.css"
+    },
+    {
       "Id": "D:\\ASP\\EffectiveUsers\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\ASP\\EffectiveUsers\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\ASP\\EffectiveUsers\\wwwroot\\js\\chart.js",
+      "PackagePath": "staticwebassets\\js\\chart.js"
+    },
+    {
+      "Id": "D:\\ASP\\EffectiveUsers\\wwwroot\\js\\chart.min.js",
+      "PackagePath": "staticwebassets\\js\\chart.min.js"
+    },
+    {
+      "Id": "D:\\ASP\\EffectiveUsers\\wwwroot\\js\\chartjs-plugin-datalabels@2.js",
+      "PackagePath": "staticwebassets\\js\\chartjs-plugin-datalabels@2.js"
+    },
+    {
+      "Id": "D:\\ASP\\EffectiveUsers\\wwwroot\\js\\dataTables.bootstrap5.min.js",
+      "PackagePath": "staticwebassets\\js\\dataTables.bootstrap5.min.js"
+    },
+    {
+      "Id": "D:\\ASP\\EffectiveUsers\\wwwroot\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.dataTables.min.js"
     },
     {
       "Id": "D:\\ASP\\EffectiveUsers\\wwwroot\\js\\site.js",
@@ -427,6 +451,18 @@
     {
       "Id": "D:\\ASP\\EffectiveUsers\\wwwroot\\logo\\user-login.svg",
       "PackagePath": "staticwebassets\\logo\\user-login.svg"
+    },
+    {
+      "Id": "D:\\ASP\\EffectiveUsers\\wwwroot\\script\\Auth.js",
+      "PackagePath": "staticwebassets\\script\\Auth.js"
+    },
+    {
+      "Id": "D:\\ASP\\EffectiveUsers\\wwwroot\\script\\ChartUsers.js",
+      "PackagePath": "staticwebassets\\script\\ChartUsers.js"
+    },
+    {
+      "Id": "D:\\ASP\\EffectiveUsers\\wwwroot\\script\\Users.js",
+      "PackagePath": "staticwebassets\\script\\Users.js"
     },
     {
       "Id": "obj\\Release\\net8.0\\win-x86\\staticwebassets\\msbuild.EffectiveUsers.Microsoft.AspNetCore.StaticWebAssets.props",

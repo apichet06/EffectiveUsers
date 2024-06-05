@@ -1,0 +1,77 @@
+﻿@model IEnumerable<EffectiveUsers.Models.Status>
+  
+@{
+    ViewData["Title"] = "Create";
+}
+ 
+<div class="row justify-content-center">
+    <div class="col-md-6 ">
+        <div class="card shadow">
+            <div class="card-body">
+                <h4>เพิ่มข้อมูลพนักงาน</h4><hr/>
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="firstname" class="form-label">ชื่อจริง</label>
+                        <input type="text" class="form-control" id="firstname" placeholder="Fristname" autocomplete="off" autofocus required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastname" class="form-label">นามสกุล</label>
+                        <input type="text" class="form-control" id="lastname" placeholder="Lastname" autocomplete="off" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="userlogin" class="form-label">ชื่อล็อกอิน</label>
+                        <input type="text" class="form-control" id="userlogin" placeholder="Userlogin" autocomplete="off" required>
+                    </div> 
+                    <div class="col-md-6">
+                        <label for="password" class="form-label">รหัสผ่าน</label>
+                        <input type="password" class="form-control" id="password" placeholder="Passwrod" autocomplete="off" required>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="email" class="form-label">อีเมล</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email" autocomplete="off">
+                    </div>
+                    <div class="col-12">
+                        <label for="address" class="form-label">ที่อยู่</label>
+                        <textarea class="form-control" id="address" rows="3" placeholder="ที่อยู่ ตำบล. อำเภอ. จังหวัด. รหัสไปรษณีย์." ></textarea>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="division" class="form-label">แผนก</label>
+                        <select id="division" name="divsion" class="form-select" required>
+                            <option value="" selected>เลือก...</option>
+                            @if (ViewData["Divisions"] is List<Division> divisions)
+                            {
+                                foreach (var division in divisions)
+                                {
+                                    <option value="@division.DV_ID">@division.DVName</option>
+                                }
+                            }
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="position" class="form-label">ตำแหน่ง</label>
+                        <select id="position" name="position" class="form-select" required>
+                            <option value="" selected>เลือก...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="ST_ID" class="form-label" >สถานะ</label>
+                        <select id="ST_ID" name="ST_ID" class="form-select" required>
+                            <option value="" selected>เลือก...</option>
+                            @foreach (var data in Model)
+                            {
+                                <option value="@data.ST_ID" >@data.StatusName</option>
+                            }
+                        </select>
+                    </div> 
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-primary">เพิ่มข้อมูล</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+ <script> 
+     var Urlposition = '@Url.Action("GetPositionsByDivision", "Users")'; 
+ </script>
+<script src="~/script/Users.js" asp-append-version="true"></script>

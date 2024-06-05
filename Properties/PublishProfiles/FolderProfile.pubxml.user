@@ -6,17 +6,12 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>D:\wwwroot\EffectiveUsers</_PublishTargetUrl>
-    <History>True|2024-02-06T08:10:09.1715494Z;</History>
+    <History>True|2024-02-08T08:32:35.1590380Z;False|2024-02-08T15:32:27.1191747+07:00;True|2024-02-08T15:21:26.1079302+07:00;False|2024-02-08T15:21:14.0346361+07:00;False|2024-02-08T15:20:50.6887347+07:00;True|2024-02-08T15:18:55.7816887+07:00;True|2024-02-08T15:09:40.6209354+07:00;False|2024-02-08T15:09:20.3709191+07:00;True|2024-02-08T14:56:58.9865325+07:00;True|2024-02-07T11:29:18.4162000+07:00;True|2024-02-07T11:10:12.7862339+07:00;True|2024-02-07T10:46:59.3590133+07:00;True|2024-02-07T10:43:40.0383941+07:00;True|2024-02-07T10:17:52.8342787+07:00;True|2024-02-06T15:10:09.1715494+07:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
     <DestinationConnectionStrings Include="DefaultConnection">
       <Value>Data Source=.\SQLEXPRESS%3bInitial Catalog=EffectiveUsers%3bUser ID=sa%3bPassword=123456%3bConnect Timeout=30%3bEncrypt=False%3bTrustServerCertificate=False%3bApplicationIntent=ReadWrite%3bMultiSubnetFailover=False</Value>
     </DestinationConnectionStrings>
-  </ItemGroup>
-  <ItemGroup>
-    <EFMigrations Include="EffectiveUsers.Data.ApplicationDBContext">
-      <Value>Data Source=.\SQLEXPRESS%3bInitial Catalog=EffectiveUsers%3bUser ID=sa%3bPassword=123456%3bConnect Timeout=30%3bEncrypt=False%3bTrustServerCertificate=False%3bApplicationIntent=ReadWrite%3bMultiSubnetFailover=False</Value>
-    </EFMigrations>
   </ItemGroup>
 </Project>

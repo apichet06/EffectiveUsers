@@ -28,16 +28,13 @@ namespace EffectiveUsers.Controllers
 
             users.UserLogin = userLogin;
             users.Password = Password;
-
-            if (string.IsNullOrEmpty(users.UserLogin) || string.IsNullOrEmpty(users.Password)) 
-                return Json(new { success = false, message = "Invalid username or password" });
              
              if (ModelState.IsValid)
                  {
                     if (IsValidUser(users.UserLogin!, users.Password!))
                     {
                         HttpContext.Response.Cookies.Append("username", users.UserLogin!);
-                       // return Json(new { success = true, message = "Successfuly" });
+                      
                     }
                     else
                     { 

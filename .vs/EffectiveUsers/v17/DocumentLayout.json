@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ASP\\EffectiveUsers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:models\\status.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:models\\position.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\models\\division.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:models\\division.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:views\\auth\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:views\\users\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\wwwroot\\script\\users.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:wwwroot\\script\\users.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\views\\users\\chart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:views\\users\\chart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|d:\\asp\\effectiveusers\\wwwroot\\script\\chartusers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{620AF810-8CEC-4999-AC03-745EA6BB8F7F}|EffectiveUsers.csproj|solutionrelative:wwwroot\\script\\chartusers.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 150,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 110,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwDkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T09:00:52.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Index.cshtml",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "Views\\Users\\Index.cshtml",
+              "ViewState": "AQIAACwBAAAAAAAAAAAQwEUBAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-08T08:38:26.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\Views\\Auth\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Index.cshtml",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\Views\\Auth\\Index.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-08T08:36:57.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAFQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-08T08:36:37.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Users.js",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\wwwroot\\script\\Users.js",
+              "RelativeDocumentMoniker": "wwwroot\\script\\Users.js",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\wwwroot\\script\\Users.js",
+              "RelativeToolTip": "wwwroot\\script\\Users.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-02-08T07:39:43.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Division.cs",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\Models\\Division.cs",
+              "RelativeDocumentMoniker": "Models\\Division.cs",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\Models\\Division.cs",
+              "RelativeToolTip": "Models\\Division.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T06:16:17.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Status.cs",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\Models\\Status.cs",
+              "RelativeDocumentMoniker": "Models\\Status.cs",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\Models\\Status.cs",
+              "RelativeToolTip": "Models\\Status.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T03:13:45.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsersController.cs",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAowB4AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T03:12:17.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-08T01:51:35.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T01:51:17.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Position.cs",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\Models\\Position.cs",
+              "RelativeDocumentMoniker": "Models\\Position.cs",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\Models\\Position.cs",
+              "RelativeToolTip": "Models\\Position.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T01:40:05.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Users.cs",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\Models\\Users.cs",
+              "RelativeDocumentMoniker": "Models\\Users.cs",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\Models\\Users.cs",
+              "RelativeToolTip": "Models\\Users.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-08T01:39:27.074Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\Views\\Users\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Create.cshtml",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\Views\\Users\\Create.cshtml",
+              "RelativeToolTip": "Views\\Users\\Create.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAqwEwAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-07T09:38:11.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ChartUsers.js",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\wwwroot\\script\\ChartUsers.js",
+              "RelativeDocumentMoniker": "wwwroot\\script\\ChartUsers.js",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\wwwroot\\script\\ChartUsers.js",
+              "RelativeToolTip": "wwwroot\\script\\ChartUsers.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-02-07T08:51:26.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Chart.cshtml",
+              "DocumentMoniker": "D:\\ASP\\EffectiveUsers\\Views\\Users\\Chart.cshtml",
+              "RelativeDocumentMoniker": "Views\\Users\\Chart.cshtml",
+              "ToolTip": "D:\\ASP\\EffectiveUsers\\Views\\Users\\Chart.cshtml",
+              "RelativeToolTip": "Views\\Users\\Chart.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-07T08:38:03.066Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

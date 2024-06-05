@@ -13,5 +13,8 @@ namespace EffectiveUsers.Models
         [MaxLength(100)]
         [Required]
         public string? P_Name { get; set; }
+        [MaxLength(10)]
+        [Required]
+        public string? DV_ID { get; set; }
     }
 }

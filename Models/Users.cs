@@ -10,20 +10,27 @@ namespace EffectiveUsers.Models
         [MaxLength(10)]
         [Required]
         public string? U_ID { get; set; }
-        [MaxLength(100)]
-        public string? Email { get; set; }
+        [MaxLength(50)]
+        [Required]
+        public string? FristName { get; set; }
+        [MaxLength(50)]
+        [Required]
+        public string? LastName { get; set; }
         [MaxLength(40)]
         [Required]
         public string? UserLogin { get; set; }
         [MaxLength(20)]
         [Required]
-        public string? Password { get; set; } = "123456";
-        [MaxLength(50)]
+        public string? Password { get; set; } = "123456"; 
+        [MaxLength(100)]
         [Required]
-        public string? Username { get; set; }
-        [MaxLength(1)]
+        public string? Email { get; set; }
+        [MaxLength(500)]
         [Required]
-        public string? Status { get; set; }
+        public string? Address { get; set; }
+        [MaxLength(2)]
+        [Required]
+        public string? ST_ID { get; set; }
         [MaxLength(10)]
         [Required]
         public string? DV_ID { get; set; }

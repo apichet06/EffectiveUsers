@@ -7,7 +7,7 @@ namespace EffectiveUsers.Models
         [Key]
         [MaxLength(10)]
         public int Id { get; set; }
-        [MaxLength(10)]
+        [MaxLength(2)]
         [Required]
         public string? ST_ID { get; set; }
         [MaxLength(150)]
